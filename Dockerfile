@@ -1,2 +1,2 @@
-FROM daocloud.io/python:3-onbuild
+FROM daocloud.io/python:2-onbuild
 CMD [ "python", "./gunicorn.py" ]
